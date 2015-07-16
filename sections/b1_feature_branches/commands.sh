@@ -23,10 +23,3 @@ git log
 
 # gitx
 gitx .
-
-
-# push to remote branch
-git push origin add_new_feature
-
-# go to repo
-hub browse
