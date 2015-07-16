@@ -3,17 +3,16 @@
 git pull origin master
 
 # create new branch
-git checkout -b add_new_feature
+git checkout -b add_square
 
 # make changes
-touch src/feature.js
-echo "var i = 0;" > src/feature.js
+cp src/code/square.js src/
 
 # add changes
-git add src/feature.js
+git add src/square.js
 
 # commit changes
-git commit -m 'Add feature file'
+git commit -m 'Add square tool'
 
 # see current status
 git status

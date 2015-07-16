@@ -1,6 +1,6 @@
 
 # push to remote branch
-git push origin add_new_feature
+git push origin add_square
 
 # go to repo
 hub browse
@@ -14,7 +14,7 @@ hub browse
 git checkout master
 
 # create local changes
-echo "var d = 3;" >> src/feature.js
+echo "var d = 3;" >> src/index.js
 
 # stash changes
 git stash save "some changes"
@@ -24,7 +24,7 @@ git stash save "some changes"
 
 # option: pull down branch
 
-git checkout -b add_new_feature origin/add_new_feature
+git checkout -b add_square origin/add_square
 
 # option: pull down PR read-only branch
 # git fetch origin pull/ID/head:BRANCHNAME
