@@ -26,5 +26,10 @@ git stash save "some changes"
 
 git checkout -b add_square origin/add_square
 
-# option: pull down PR read-only branch
+# another option: pull down PR read-only branch
 # git fetch origin pull/ID/head:BRANCHNAME
+# git checkout BRANCHNAME
+
+
+# reapply stash
+git stash pop
