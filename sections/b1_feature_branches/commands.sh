@@ -12,7 +12,7 @@ cp src/code/square.js src/
 git add src/square.js
 
 # commit changes
-git commit -m 'Add square tool'
+git commit
 
 # see current status
 git status

@@ -6,6 +6,9 @@ git push origin add_square
 hub browse
 
 # create new pull request
+#  - go to github and find branch
+#  - create PR
+#  - come back here
 
 ## -------
 
@@ -13,23 +16,13 @@ hub browse
 
 git checkout master
 
-# create local changes
-echo "var d = 3;" >> src/index.js
-
-# stash changes
-git stash save "some changes"
-
 
 # pull down pull request locally
 
 # option: pull down branch
 
-git checkout -b add_square origin/add_square
+git checkout -b add_square_pr origin/add_square
 
 # another option: pull down PR read-only branch
 # git fetch origin pull/ID/head:BRANCHNAME
 # git checkout BRANCHNAME
-
-
-# reapply stash
-git stash pop

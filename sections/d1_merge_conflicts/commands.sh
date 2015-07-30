@@ -43,6 +43,7 @@ git push origin master
 
 # create new pull request
 git checkout another_conflict
+# https://github.com/github/hub#git-pull-request
 hub pull-request
 
 # go to repo
